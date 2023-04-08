@@ -1,0 +1,52 @@
+.future_title {
+  text-align: center;
+  height: 5px;
+  h5 {
+    color: $link_color_green;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 4%;
+    margin-bottom: 1%;
+  }
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 auto;
+    width: 25%;
+    color: $h_color;
+  }
+  p {
+    margin: 1% auto 2%;
+    width: 35%;
+    font-family: $font_family;
+    color: $li_color;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #btn_green {
+    @include btn();
+    background-color: $link_color_green;
+    border-color: transparent;
+    margin-right: 1%;
+
+    a {
+      color: $link_color_white;
+    }
+  }
+  #btn_white {
+    @include btn();
+    border-color: $link_color_green;
+    background-color: transparent;
+    a {
+      color: $link_color_green;
+    }
+  }
+}
+// .future_title {
+//   background-image: url(/assets/img/background.png);
+// }

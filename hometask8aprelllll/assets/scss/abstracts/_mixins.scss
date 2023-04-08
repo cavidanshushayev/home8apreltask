@@ -1,0 +1,10 @@
+@mixin bcg {
+  position: absolute;
+  top: 0px;
+  background-color: $bcg_color_green;
+}
+@mixin btn {
+  align-items: center;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
